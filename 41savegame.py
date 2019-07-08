@@ -1,6 +1,6 @@
 from random import  randint
 
-name = raw_input('请输入你的名字:') #输入玩家名字
+name = input('请输入你的名字:') #输入玩家名字
 
 #读取文件中的成绩数据
 f = open('c:/Users/Administrator/PycharmProjects/untitled/game.txt')
