@@ -1,7 +1,7 @@
 # _*_ coding:utf-8 _*_
 import urllib.request
 import json
-from city import city
+from pythonPractice.city import city
 
 cityname = input('你想查哪个城市的天气?\n')
 citycode = city.get(cityname)
